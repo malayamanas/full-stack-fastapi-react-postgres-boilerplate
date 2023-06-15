@@ -76,7 +76,7 @@ export class App extends React.Component {
               encodeSpecialCharacters={true}
               defaultTitle={config.name}
               titleTemplate={`%s | ${config.name}`}
-              titleAttributes={{ itemprop: 'name', '{ lang: 'en' }' }}
+              titleAttributes={ itemprop: 'name', lang: 'en' }
             />
             {user.isAuthenticated && <Header dispatch={dispatch} user={user} />}
             <Main isAuthenticated={user.isAuthenticated}>

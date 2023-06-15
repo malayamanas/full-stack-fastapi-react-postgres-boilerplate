@@ -72,11 +72,11 @@ export class App extends React.Component {
           <AppWrapper logged={user.isAuthenticated}>
             <Helmet
               defer={false}
-              htmlAttributes={{ lang: 'pt-br' }}
+              htmlAttributes={{ lang: 'en' }}
               encodeSpecialCharacters={true}
               defaultTitle={config.name}
               titleTemplate={`%s | ${config.name}`}
-              titleAttributes={{ itemprop: 'name', lang: 'pt-br' }}
+              titleAttributes={{ itemprop: 'name', lang: 'en' }}
             />
             {user.isAuthenticated && <Header dispatch={dispatch} user={user} />}
             <Main isAuthenticated={user.isAuthenticated}>

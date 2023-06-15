@@ -29,7 +29,7 @@
 
     "sentry_dsn": "",
 
-    "docker_image_prefix": "Lawdev-React-",
+    "docker_image_prefix": "lawdev-react-",
 
     "docker_image_backend": "{{cookiecutter.docker_image_prefix}}backend",
     "docker_image_celeryworker": "{{cookiecutter.docker_image_prefix}}celeryworker",

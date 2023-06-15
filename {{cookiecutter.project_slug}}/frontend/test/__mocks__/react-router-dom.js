@@ -81,8 +81,7 @@ export function withRouter(WrappedComponent) {
         <WrappedComponent
           {...this.props}
           location={{
-            window.location,
-            state: {},
+            'window.location, state: {},'
           }}
           match={window.match || {}}
         />
